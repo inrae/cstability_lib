@@ -76,8 +76,6 @@ public class SubstrateInputManager implements Decodable {
 			String bcName = st.nextToken().trim();
 			SubstrateAccessibility accessibility = SubstrateAccessibility
 					.getSubstrateAccessibility(st.nextToken().trim());
-			System.out.println("SubstrateInputManager" + substrate);
-			System.out.println("SubstrateInputManager" + accessibility);
 
 			String encodedInputManager = st.nextToken().trim();
 			try {
