@@ -46,7 +46,7 @@ finalDate = 200
 #		integrationMethod = INTEGRATION_TRAPEZE
 ########################################################################
 
-userTimeStep = 0.1
+userTimeStep = 0.01
 userPolymerizationStep = 0.01
 integrationMethod = INTEGRATION_TRAPEZE
 
@@ -379,4 +379,4 @@ MICROBE_INITIALIZATION	white_rot_fungi	1.0
 
 POOL_OBSERVER	[lipid,ACCESSIBLE]	mass	[0,1]
 ENZYME_OBSERVER	lipidase	depolymerization_rate_distribution	[0,1]
-MICROBE_OBSERVER	brown_rot_fungi	uptake_flux_distribution	[0,1]
+MICROBE_OBSERVER	brown_rot_fungi	uptake_flux_distribution_map	[0,1]
